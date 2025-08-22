@@ -1,0 +1,40 @@
+*body{
+    margin: 0px;
+    padding: 0px;
+}
+#containerTopo{
+    width: 980px;
+    height: 100px;
+    background-color: lightblue;
+    margin: auto;
+}
+#logo{
+    width: 200px;
+    height: 100px;
+    background-color: cornflowerblue;
+    float: left;
+}
+#menu{
+    width: 780px;
+    height: 100px;
+    background-color: lightblue;
+    float: right;
+}
+#container{
+    width: 980px;
+    height: 500px;
+    background-color:lightgreen;
+    margin: auto;
+}
+#esquerda{
+    width: 450px;
+    height: 500px;
+    background-color: blue;
+    float: left;
+}
+#direita{                                                                            
+    width: 450px;
+    height: 500px;
+    background-color: darkblue;
+    float: right;
+}

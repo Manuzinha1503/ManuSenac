@@ -12,11 +12,50 @@
     width: 200px;
     height: 200px;
     float: left;
-    background-color: blue;
+    background-color: cadetblue;
 }
 #menu{
     width: 780px;
     height: 200px;
     float: right;
-    background-color: aquamarine;
+    background-color: darkcyan;
+    text-align: center;
+    word-spacing: 10px;
+}
+#menu a {
+    color: black;
+    text-decoration: none;
+}
+#banner{
+    width: 700px;
+    height: 400px;
+    background-color: black;
+    margin: auto;
+    margin-top: 50px;
+}
+#conteudoSite{
+    width: 980px;
+    height: 500px;
+    background-color: lightgreen;
+    margin: auto;
+    margin-top: 50px;
+}
+#esquerda{
+    width: 450px;
+    height:500px;
+    float: left;
+    background-color: darkgreen;
+}
+#direita{
+    width: 450px;
+    height: 500px;
+    float: right;
+    background-color: darkgreen;
+}
+#rodape{
+    width: 980px;
+    height: 50px;
+    background-color: indigo;
+    margin: auto;
+    margin-top: 50px;
 }

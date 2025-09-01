@@ -43,7 +43,7 @@
 #conteudoSite{
     width: 980px;
     height: 500px;
-    background-color: lightgreen;
+    background-color: rgb(255, 255, 255);
     margin: auto;
     margin-top: 50px;
 }
@@ -51,12 +51,14 @@
     width: 450px;
     height:500px;
     float: left;
+    color: rgb(255, 255, 255);
     background-color: darkgreen;
 }
 #direita{
     width: 450px;
     height: 500px;
     float: right;
+    color: rgb(255, 255, 255);
     background-color: darkgreen;
 }
 #rodape{

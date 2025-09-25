@@ -23,10 +23,18 @@
         function imprimirVariaveis() {
             var nome = document.getElementById('filme').vaule;
             var genero = document.getElementById("genero").vaule;
-            var sim = document.getElementById('sim').vaule;
-            var nao = document.getElementById('nao'). vaule;
-            alert(nome+" " + genero)
-            document.rite(nome)
+            var sim = document.getElementById('sim');
+            var nao = document.getElementById('nao');
+            var resultado = "";
+
+            if(sim.checked){
+                resultado = sim.vaule;
+            }else if (linux.checked){
+                resultado = nao.vaule
+            }
+            
+            alert(resultado)
+            document.rite(nome + resultado)
         }
     </script>
     

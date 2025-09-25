@@ -1,0 +1,34 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+</head>
+<body>
+    <form action="">
+        Filme: <input type="text" id="filme"><br>
+        Gênero: <select name="genero">
+            <option>Ação</option>
+            <option>Romance</option>
+            <option>Terror</option>
+            <option>Comedia</option>
+        </select><br>
+        Assistido?<br>
+        Sim <input type="radio" id="sim"><br>
+        Não <input type="radio" id="nao"><br>
+              <input type="submit" onclick="imprimirVariaveis()" value="Cadastrar">
+    </form>
+    <script>
+        function imprimirVariaveis() {
+            var nome = document.getElementById('filme').vaule;
+            var genero = document.getElementById("genero").vaule;
+            var sim = document.getElementById('sim').vaule;
+            var nao = document.getElementById('nao'). vaule;
+            alert(nome+" " + genero)
+            document.rite(nome)
+        }
+    </script>
+    
+</body>
+</html>

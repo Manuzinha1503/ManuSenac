@@ -1,0 +1,31 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+</head>
+<body>
+    <img src="lua-nova.webp" id="lua" width="200"/>
+    <form>
+        <input type="button" value="Lua Nova" onclick="nova()">
+        <input type="button" value="Lua Crescente" onclick="crescente()">
+        <input type="button" value="Lua Cheia" onclick="cheia()">
+        <input type="button" value="Lua Minguante" onclick="minguante()">
+    </form>
+    <script>
+        function nova(){
+            var lua = document.getElementById('lua').src ='lua-nova.webp';
+        }
+        function crescente(){
+            var lua = document.getElementById('lua').src ='lua-crescente.jpg';
+        }
+        function cheia(){
+            var lua = document.getElementById('lua').src ='lua-cheia.jpg';
+        }
+        function minguante(){
+            var lua = document.getElementById('lua').src ='lua-minguante.jpg';
+        }
+    </script>
+</body>
+</html>

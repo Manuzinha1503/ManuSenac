@@ -1,0 +1,27 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+</head>
+<body>
+    <img src="praia.webp" id="paisagem" width="200"/>
+    <form>
+        <input type="button" value="Praia" onclick="praia()">
+        <input type="button" value="Floresta" onclick="floresta()">
+        <input type="button" value="Montanha" onclick="montanha()">
+    </form>
+    <script>
+        function praia(){
+            var lampada = document.getElementById('paisagem').src ='praia.webp';
+        }
+        function floresta(){
+            var lampada = document.getElementById('paisagem').src ='floresta.jpg';
+        }
+        function montanha(){
+            var lampada = document.getElementById('paisagem').src ='montanha.jpg';
+        }
+    </script>
+</body>
+</html>

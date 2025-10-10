@@ -1,0 +1,55 @@
+#body{
+    margin: 0px;
+    padding: 0px;
+}
+#topopor{
+    width: 100%;
+    height: 90px;
+    background-color: black;
+}
+#topo{
+    width: 980px;
+    height: 90px;
+    margin: auto;
+    background-color: crimson;
+}
+#logo{
+    width: 200px;
+    height: 90px;
+    background-color: darkcyan;
+    float: left;
+}
+#menu{
+    width: 780px;
+    height: 90px;
+    background-color: dodgerblue;
+    float: right;
+}
+#anime{
+    width: 980px;
+    height: 400px;
+    margin: auto;
+}
+#titulo{
+    text-align: center;
+    color: yellow;
+    font-weight: bold;
+    font-size: 20px;
+}
+#pem{
+    width: 980px;
+    height: 300px;
+    margin: auto;
+}
+#esquerda{
+    width: 470px;
+    height: 300px;
+    float: left;
+    background-color: yellowgreen;
+}
+#direita{
+    width: 470px;
+    height: 300px;
+    float: right;
+    background-color: violet;
+}

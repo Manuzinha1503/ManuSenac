@@ -1,0 +1,51 @@
+*body{
+    margin: 0px;
+    padding: 0px;
+}
+#containerTopo{
+    width: 980px;
+    height: 150px;
+    background-color:#f4eaea;
+    margin: auto;
+}
+#logo{
+    width: 200px;
+    height: 150px;
+    /*background-color: cornflowerblue;*/
+    float: left;
+}
+#menu{
+    width: 780px;
+    height: 150px;
+    /*background-color: lightblue;*/
+    float: right;
+    font-size: 20px;
+    text-align: center;
+    color: oldlace;
+    word-spacing: 20px;
+}
+#menu a{
+    text-decoration: none;
+    color:#4a2424;
+}
+#menu a:hover{
+    color:#ab8d88;
+}
+#container{
+    width: 980px;
+    height: 500px;
+    background-color:lightgreen;
+    margin: auto;
+}
+#esquerda{
+    width: 450px;
+    height: 500px;
+    background-color: blue;
+    float: left;
+}
+#direita{                                                                            
+    width: 450px;
+    height: 500px;
+    background-color: darkblue;
+    float: right;
+}

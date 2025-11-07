@@ -1,38 +1,60 @@
-#body{
+* body{
     margin: 0px;
     padding: 0px;
+    font-family: "Montserrat", sans-serif;
 }
 #topopor{
     width: 100%;
-    height: 90px;
-    background-color: black;
+    height: 120px;
+    /*background-color: black;*/
 }
 #topo{
     width: 980px;
-    height: 90px;
+    height: 120px;
     margin: auto;
-    background-color: crimson;
+    /*background-color: crimson;*/
 }
 #logo{
     width: 200px;
-    height: 90px;
-    background-color: darkcyan;
+    height: 120px;
+    /*background-color: darkcyan;*/
     float: left;
 }
 #menu{
     width: 780px;
-    height: 90px;
-    background-color: dodgerblue;
+    height: 120px;
+    /*background-color: dodgerblue;*/
     float: right;
+    font-size: 16px;
+    text-align: center;
+    color: oldlace;
+    word-spacing: 20px;
+    
+}
+#menu a{
+    text-decoration: none;
+    color: rebeccapurple;
+}
+#menu a:hover{
+    color: teal;
+}
+.espaco{
+    padding-top: 20px;
 }
 #anime{
-    width: 980px;
+    width: 100%;
     height: 400px;
     margin: auto;
 }
+#centraliza{
+    width: 980px;
+    height: 20px;
+    margin: auto;
+    text-align: center;
+}
 #titulo{
     text-align: center;
-    color: yellow;
+    color: black;
     font-weight: bold;
     font-size: 20px;
 }
@@ -45,11 +67,41 @@
     width: 470px;
     height: 300px;
     float: left;
-    background-color: yellowgreen;
+    /*background-color: yellowgreen;*/
 }
 #direita{
     width: 470px;
     height: 300px;
     float: right;
-    background-color: violet;
+    /*background-color: violet;*/
+}
+#medio{
+    width: 980px;
+    height: 500px;
+    margin: auto;
+    text-align: justify;
+}
+#medio img{
+    float: left;
+    padding: 10px 10px 20px 15px;
+}
+#conteudoSite{
+    width: 980px;
+    height: 500px;
+    background-color: rgb(255, 255, 255);
+    margin: auto;
+    margin-top: 50px;
+}
+#rodapepor{
+    width: 100%;
+    height: 70px;
+    background-color: lawngreen;
+}
+#rodape{
+    width: 980px;
+    height: 50px;
+    margin-top: 20px;
+    text-align: center;
+    color: black;
+    margin: auto
 }
